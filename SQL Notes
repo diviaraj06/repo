@@ -6,8 +6,7 @@ SQL Notes:
 - SQL allow us to do query,insert,update and delete and lot more operations in the relational databases.
 
 2.What is the order of SQL query execution?
-- The order of SQL clauses are:
-- from - where - group by - having  - select - order by - limit.
+- The order of SQL clauses are: from - where - group by - having  - select - order by - limit.
 
 3.What are the funcations of cluases in the SQL order?
 - from : It choose and join the tables to fetch base data.
@@ -29,5 +28,24 @@ SQL Notes:
 - LEFT JOIN : It returns the result by joining all records of left table with the matching records of right table.It is also called LFET OUTER JOIN.
 - RIGHT JOIN : It returns the result of joining all the records of right table with the matching records from left table.It is also called RIGHT OUTER JOIN.
 
-5.
+5.What is the difference between Normalization and Denormalization?
+- Normalization is the process of organising data in a database to reduce redundancy and improve data intagrity.
+- Denormalization is the process of combaing tables to minimize the no.of joins for query optimization.
+
+6.What is ACID properties?
+- ACID stands for Atomicity Consistency Isolation and Durability.
+- Atomicity means if any operation in performed on the data, either it should be executed completely or
+  it should not be executed at all.It means the operation should not break in between or execute partially.
+- Consistency means if any change is performed on the data,database must ensure the intagrity 
+  by confirming that the data is remain consistent before and after the the change.
+- Isolation ensures that all transactions run in an isolated environment. 
+  That enables running transactions concurrently because transactions don’t interfere with each other.
+- The durability property states that once the execution of a transaction is completed, the modifications and updates 
+  on the database gets written on and stored in the disk. These persist even after the occurrence of a system failure. 
+
+7.What is the difference between GROUP BY and HAVING clause?
+- GROUP BY clause is used to group identical data into groups and typically to perform aggregate functions on each group.
+- HAVING clause is used in combination with GROUP BY to filter the results based on a condition applied to the grouped data.
+
+8.
 
