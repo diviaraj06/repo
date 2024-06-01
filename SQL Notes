@@ -1,0 +1,33 @@
+SQL Notes:
+----------
+
+1. What is SQL?
+- SQL stands for Structured Query Language.It is a programming lanuage used to manaage relation database systems.
+- SQL allow us to do query,insert,update and delete and lot more operations in the relational databases.
+
+2.What is the order of SQL query execution?
+- The order of SQL clauses are:
+- from - where - group by - having  - select - order by - limit.
+
+3.What are the funcations of cluases in the SQL order?
+- from : It choose and join the tables to fetch base data.
+- where : Filter the base data.
+- group by : Aggregates the base data.
+- having : Filter the aggregated data.
+- select: Returns the final data.
+- order by : Sort the final data.
+- limit: Limits the returned data to a row count.
+
+3.What is the basic difference between SQL and NOSQL databases?
+- SQL databases work with organized and structured data.SQL language is used to deal with relational databases.On the other hand,Nosql databases 
+- Use unstructed data and it is works for nonrelatoional databases.
+- Eg for SQL database: Oracle,MS SQL,MySQL,PostgreSQL
+- Eg for NoSQL databases: MongoDB
+
+4.Explain the difference between inner join,left join and right join?
+- INNER JOIN : It joins the records from both tables that matching the associated condition.
+- LEFT JOIN : It returns the result by joining all records of left table with the matching records of right table.It is also called LFET OUTER JOIN.
+- RIGHT JOIN : It returns the result of joining all the records of right table with the matching records from left table.It is also called RIGHT OUTER JOIN.
+
+5.
+
