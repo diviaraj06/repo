@@ -1,34 +1,34 @@
-What is the signifigance of BigO?
+1.What is the signifigance of BigO?
 - It allows us to distinugh different codes based on their efficiency.
 
-What is time complexity?
+2.What is time complexity?
 So it is measured in the number of operations that it takes to complete something.
 The thing about time complexity that is interesting is that it is not measured in time.
 
-What are the denotations when talk about time and space complexity?
+3.What are the denotations when talk about time and space complexity?
 Omega: It represent best case senario.
 Theta: It represnt average case senario.
 Omicron(O): It represnt worst case senario.
 
-Is there any best case and average case BigO?
+4.Is there any best case and average case BigO?
 No
 
-BigO always represnt worst case senario.T or F?
+5.BigO always represnt worst case senario.T or F?
 T
 
-What are the different BigO notations?
+6.What are the different BigO notations?
 1. O(n) : If we are passing 'n' inputs to the program , time complexity would be equals to the no of operations.BigO notation is for single for loop.
 2. O(n^2) : If we are passing 'n' inputs to the program , time complexity would be equals to the squre of no of operations.BigO notation is for nested for loop.It is less efficient than O(n).
 3. O(1) : If we are passing 'n' inputs to the program, time complexity would be equals to constant.This is most efficent bigO notation.
 4. O(log n) : if we have n elements in a list and we need to find a number,Time complexity would be the no of pass/step taken to find the specified number from the list.It is less effient than O(1) and more effient than O(n).
 5. O(nlog n) : It is the BigO incase of some sorting algoritham like merge sort ,quick sort.
 
-What are the different ways simplify BigO notation?
+7.What are the different ways simplify BigO notation?
 Drop constants
 Drop non-dominants
 
-BigO notation for 2 seperate for loop with different inputs a[1st loop],b[2nd loop]----?
+8.BigO notation for 2 seperate for loop with different inputs a[1st loop],b[2nd loop]----?
 O(a+b)
 
-BigO notation for nested for loop with different inputs a[1st loop],b[2nd loop] ----?
+9.BigO notation for nested for loop with different inputs a[1st loop],b[2nd loop] ----?
 O(a*b)
